@@ -35,7 +35,7 @@ async function handler(req, res) {
     // Отправляем уведомление в Telegram
     if (BOT_TOKEN && CHAT_ID) {
       const text = `📝 Новая заметка:\n\n*Оператор:* ${name}\n*Комментарий:* ${comment || '(пусто)'}`;
-      const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${encodeURIComponent(text)}&parse_mode=Markdown`;
+      const url = `https://api.telegram.org/bot${8314613767:AAFscQLd4LHn88UVwAHEN79yQaaRWM0UjTM}/sendMessage?chat_id=${1009849089}&text=${encodeURIComponent(text)}&parse_mode=Markdown`;
       try {
         await fetch(url);
       } catch (e) {
