@@ -1,9 +1,9 @@
 {
   "name": "telegram-notes-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@vercel/kv": "^0.2.3",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^3.3.0"
   }
 }
