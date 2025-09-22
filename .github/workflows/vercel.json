@@ -1,3 +1,0 @@
-{
-  "rewrites": [{ "source": "/api/notes", "destination": "/api/notes.js" }]
-}
